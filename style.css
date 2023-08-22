@@ -139,6 +139,33 @@ body {
 .home-banner {
   width: 100%;
   overflow: hidden;
+  position: relative;
+}
+
+.home-banner h1 {
+  color: #000000;
+  font-size: 2rem;
+  font-family: "Gelasio", serif;
+  font-weight: 700;
+  position: absolute;
+  top: 6%;
+  left: 40%;
+}
+
+.home-banner h2 {
+  color: #000000;
+  font-size: 3rem;
+  font-family: "Gelasio", serif;
+  font-weight: 700;
+  position: absolute;
+  top: 54%;
+  left: 4%;
+  text-transform: uppercase;
+}
+
+.home-banner h2:last-child {
+  top: 54%;
+  left: 55%;
 }
 
 .home-banner img {
@@ -861,6 +888,21 @@ footer {
     text-transform: uppercase;
     margin: 0 2rem;
     cursor: pointer;
+  }
+
+  .home-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-banner h2 {
+    color: #000000;
+    font-size: 2.3rem;
+    font-family: "Gelasio", serif;
+    font-weight: 700;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+    text-transform: uppercase;
   }
 
   .top-head-container {
