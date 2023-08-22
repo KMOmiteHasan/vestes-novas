@@ -223,6 +223,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5rem 3rem;
+  position: relative;
 }
 
 .women-prod-list h1,
@@ -241,19 +242,17 @@ body {
 .men-prod-listings,
 .kids-prod-listings {
   width: 100%;
-  display: grid;
-  grid-template-columns: 22% 22% 22% 22%;
-  gap: 2%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  position: relative;
 }
 
 .women-prod-card,
 .men-prod-card,
 .kids-prod-card {
-  width: 100%;
-  margin: 1rem 0 3rem;
-  display: flex;
+  margin: 0 3rem;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -370,7 +369,10 @@ body {
   background: #ffffff;
 }
 
-.slider-btn-left {
+.slider-btn-left,
+.women-slider-btn-left,
+.men-slider-btn-left,
+.kids-slider-btn-left {
   position: absolute;
   left: 5%;
   top: 34rem;
@@ -382,7 +384,10 @@ body {
   z-index: 1;
 }
 
-.slider-btn-right {
+.slider-btn-right,
+.women-slider-btn-right,
+.men-slider-btn-right,
+.kids-slider-btn-right {
   position: absolute;
   right: 5%;
   top: 34rem;
@@ -396,7 +401,7 @@ body {
 
 .slick-dots {
   position: absolute;
-  bottom: -6rem;
+  bottom: -5rem;
   left: 50%;
   display: flex;
   justify-content: center;
@@ -752,6 +757,10 @@ footer {
 
   .product-slider-container {
     width: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-container {
@@ -760,6 +769,18 @@ footer {
 
   .blog-container {
     width: 87%;
+  }
+
+  .women-prod-list h1,
+  .kids-prod-list h1,
+  .men-prod-list h1 {
+    font-size: 2.5rem;
+    font-family: "Gelasio", serif;
+    font-weight: 700;
+    color: #8f7259;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    text-align: center;
   }
 
   .prod-listing-img img {
@@ -782,6 +803,15 @@ footer {
     align-items: center;
     justify-content: flex-start;
   }
+
+  .card-slider {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
   .product-card-slider .prod-listing-img {
     width: 50%;
   }
@@ -851,6 +881,10 @@ footer {
 
   .product-slider-container {
     width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-container {
@@ -861,6 +895,18 @@ footer {
     width: 92%;
   }
 
+  .women-prod-list h1,
+  .kids-prod-list h1,
+  .men-prod-list h1 {
+    font-size: 2.5rem;
+    font-family: "Gelasio", serif;
+    font-weight: 700;
+    color: #8f7259;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
   .women-prod-listings,
   .men-prod-listings,
   .kids-prod-listings {
@@ -868,6 +914,13 @@ footer {
     display: grid;
     grid-template-columns: 47% 47%;
     gap: 0;
+  }
+
+  .women-prod-feat img,
+  .men-prod-feat img,
+  .kids-prod-feat img {
+    width: 100%;
+    margin-top: 5rem;
   }
 
   .women-prod-card,
