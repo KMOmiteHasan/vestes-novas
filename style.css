@@ -1148,6 +1148,15 @@ footer {
   .kids-prod-feat h1 {
     margin-bottom: 3.5rem;
   }
+  .card-slider {
+    width: 80%;
+  }
+  .prod-listing-img img {
+    width: 70%;
+  }
+  .blog-posts {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 380px) {
