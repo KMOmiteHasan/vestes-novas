@@ -1100,7 +1100,7 @@ footer {
   .men-prod-feat h1,
   .kids-prod-feat h1 {
     font-size: 1.8rem;
-    /* margin-bottom: 3rem; */
+    margin-bottom: 4rem;
   }
 
   .women-prod-feat img,
@@ -1142,6 +1142,11 @@ footer {
 @media only screen and (max-width: 430px) {
   .home-banner h1 {
     font-size: 1.3rem;
+  }
+  .women-prod-feat h1,
+  .men-prod-feat h1,
+  .kids-prod-feat h1 {
+    margin-bottom: 3.5rem;
   }
 }
 
