@@ -293,7 +293,8 @@ body {
 
 .prod-listing-img img {
   width: 100%;
-  height: 30rem;
+  height: 26rem;
+  margin-bottom: 1rem;
 }
 
 .kids-prod-card .prod-listing-img img {
@@ -372,7 +373,8 @@ body {
 }
 
 .product-slider-container h1 {
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: 4rem;
   font-family: "Gelasio", serif;
   font-weight: 800;
   color: #8f7259;
@@ -539,7 +541,7 @@ body {
   -o-border-radius: 0.3rem;
   cursor: pointer;
   overflow: hidden;
-  margin: 0 2rem;
+  margin: 0 1.5rem;
   display: flex !important;
   flex-direction: column;
   align-items: center;
@@ -560,7 +562,7 @@ body {
 
 .blog-post-card img {
   width: 100%;
-  height: 25rem;
+  height: 28rem;
   transition: 1s;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -755,6 +757,22 @@ footer {
     height: 5.4rem;
     background: #8f7259;
   }
+  .women-prod-feat h1,
+  .men-prod-feat h1,
+  .kids-prod-feat h1 {
+    font-size: 2rem;
+  }
+  .women-prod-list h1,
+  .kids-prod-list h1,
+  .men-prod-list h1 {
+    font-size: 2rem;
+    font-family: "Gelasio", serif;
+    font-weight: 700;
+    color: #8f7259;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -765,6 +783,9 @@ footer {
     width: 100%;
     height: 6rem;
     background: #8f7259;
+  }
+  .blog-container {
+    width: 87%;
   }
   .prod-listing-img img {
     width: 100%;
@@ -805,6 +826,13 @@ footer {
 @media only screen and (max-width: 768px) {
   html {
     font-size: 6.5px;
+  }
+
+  .home-banner h1 {
+    font-size: 1.8rem;
+  }
+  .home-banner h2 {
+    font-size: 2.6rem;
   }
 
   .top-head-container {
@@ -898,14 +926,31 @@ footer {
   .footer-content-block-4 {
     margin-bottom: 8rem;
   }
+  .blog-post-card img {
+    width: 100%;
+    height: 35rem;
+    transition: all 1s ease 0s;
+  }
 }
 
 @media only screen and (max-width: 668px) {
   html {
     font-size: 6px;
   }
+  .top-head-container h1 {
+    font-size: 1.6rem;
+  }
+  .bottom-head-container h1 {
+    font-size: 1.6rem;
+  }
   .bottom-head {
     height: 5rem;
+  }
+  .home-banner h1 {
+    font-size: 1.6rem;
+  }
+  .home-banner h2 {
+    font-size: 2.4rem;
   }
 }
 
@@ -932,12 +977,12 @@ footer {
   }
 
   .home-banner h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .home-banner h2 {
     color: #000000;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-family: "Gelasio", serif;
     font-weight: 700;
     position: absolute;
@@ -996,7 +1041,7 @@ footer {
 
   .prod-listing-img img {
     width: 55%;
-    height: 18rem;
+    height: 28rem;
     margin-bottom: 1rem;
   }
 
@@ -1066,7 +1111,7 @@ footer {
     justify-content: space-between;
   }
   .blog-posts {
-    width: 70%;
+    width: 50%;
   }
 
   .blog-post-card {
@@ -1074,5 +1119,23 @@ footer {
   }
   .blog-post-card:last-child {
     margin-bottom: 4rem;
+  }
+
+  .blog-post-card img {
+    width: 100%;
+    height: 30rem;
+    transition: all 1s ease 0s;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .home-banner h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .home-banner h1 {
+    font-size: 1.2rem;
   }
 }
