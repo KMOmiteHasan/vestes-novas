@@ -399,6 +399,7 @@ body {
 .slider-btn-left,
 .women-slider-btn-left,
 .men-slider-btn-left,
+.blog-slider-btn-left,
 .kids-slider-btn-left {
   position: absolute;
   left: 5%;
@@ -414,6 +415,7 @@ body {
 .slider-btn-right,
 .women-slider-btn-right,
 .men-slider-btn-right,
+.blog-slider-btn-right,
 .kids-slider-btn-right {
   position: absolute;
   right: 5%;
@@ -504,6 +506,7 @@ body {
 .blog-container {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 .blog-container h1 {
@@ -518,52 +521,84 @@ body {
 
 .blog-posts {
   width: 100%;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 2%;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .blog-post-card {
-  width: 100%;
+  text-decoration: none;
   background: #ffffff;
   border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
   -moz-border-radius: 0.3rem;
   -ms-border-radius: 0.3rem;
   -o-border-radius: 0.3rem;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0 2rem;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-post-card:hover h2 {
+  text-decoration: underline;
+}
+
+.blog-post-card:hover img {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
 }
 
 .blog-post-card img {
   width: 100%;
-}
-
-.blog-post-card p {
-  width: 100%;
-  text-align: center;
-  margin: 2rem 0 1.5rem;
-  font-size: 1.8rem;
-  font-family: sans-serif;
+  height: 25rem;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .blog-post-card h2 {
   width: 100%;
-  text-align: center;
-  margin: 0 0 4rem;
-  font-size: 2rem;
+  text-align: left;
+  margin: 2.6rem 0 1.8rem;
+  padding: 0 2.5rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
   font-family: sans-serif;
+  font-weight: 500;
+  color: #222222;
+  text-transform: capitalize;
 }
 
-.blog-post-card a {
+.blog-post-card span {
   width: 100%;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  margin: 0 0 4rem;
+  text-align: left;
+  margin: 0rem 0 1rem;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  padding: 0 2.5rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.blog-post-card p {
+  width: 100%;
+  text-align: left;
+  margin: 0rem 0 1.5rem;
   font-size: 1.6rem;
   font-family: sans-serif;
-  color: #000000;
+  padding: 0 2.5rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 
 footer {
@@ -933,8 +968,29 @@ footer {
     width: 92%;
   }
 
+  .prod-listing-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prod-listing-img img {
+    width: 50%;
+    height: 18rem;
+    margin-bottom: 1rem;
+  }
+
   .blog-container {
     width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-card-slider .prod-listing-img {
+    width: 100%;
   }
 
   .women-prod-list h1,
@@ -984,12 +1040,7 @@ footer {
     justify-content: space-between;
   }
   .blog-posts {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    gap: 0;
-    align-items: center;
-    justify-content: space-between;
+    width: 70%;
   }
 
   .blog-post-card {

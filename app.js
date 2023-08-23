@@ -128,3 +128,38 @@ $(document).ready(function () {
         });
 });
 
+
+
+$(document).ready(function () {
+    $(".blog-posts")
+        .not(".slick-initialized")
+        .slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 2000,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            prevArrow: ".blog-slider-btn-left",
+            nextArrow: ".blog-slider-btn-right",
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+});
+
