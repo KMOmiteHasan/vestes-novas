@@ -940,6 +940,19 @@ footer {
     text-transform: uppercase;
   }
 
+  .women-prod-feat,
+  .men-prod-feat,
+  .kids-prod-feat {
+    width: 40%;
+    padding: 5rem 1rem;
+  }
+
+  .women-prod-list,
+  .men-prod-list,
+  .kids-prod-list {
+    width: 60%;
+  }
+
   .top-head-container {
     width: 92%;
   }
@@ -976,7 +989,7 @@ footer {
   }
 
   .prod-listing-img img {
-    width: 50%;
+    width: 55%;
     height: 18rem;
     margin-bottom: 1rem;
   }
@@ -996,7 +1009,7 @@ footer {
   .women-prod-list h1,
   .kids-prod-list h1,
   .men-prod-list h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-family: "Gelasio", serif;
     font-weight: 700;
     color: #8f7259;
@@ -1014,11 +1027,18 @@ footer {
     gap: 0;
   }
 
+  .women-prod-feat h1,
+  .men-prod-feat h1,
+  .kids-prod-feat h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5rem;
+  }
+
   .women-prod-feat img,
   .men-prod-feat img,
   .kids-prod-feat img {
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .women-prod-card,
