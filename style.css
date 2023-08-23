@@ -1009,7 +1009,7 @@ footer {
   .women-prod-list h1,
   .kids-prod-list h1,
   .men-prod-list h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: "Gelasio", serif;
     font-weight: 700;
     color: #8f7259;
@@ -1030,7 +1030,7 @@ footer {
   .women-prod-feat h1,
   .men-prod-feat h1,
   .kids-prod-feat h1 {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 5rem;
   }
 
