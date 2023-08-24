@@ -302,8 +302,8 @@ body {
 }
 
 .prod-listing-price p {
-  font-size: 1.8rem;
-  font-family: "Gelasio", serif;
+  font-size: 1.9rem;
+  font-family: sans-serif;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -479,7 +479,7 @@ body {
 }
 
 .about-container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -494,14 +494,13 @@ body {
 }
 
 .about-container p {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: sans-serif;
   font-weight: 600;
   color: #907257;
   text-transform: uppercase;
-  text-align: justify;
+  text-align: left;
   letter-spacing: 0.11rem;
-  word-spacing: 0.1rem;
   line-height: 3.2rem;
 }
 
@@ -786,11 +785,11 @@ footer {
   .men-prod-feat img {
     width: 100%;
     margin-top: 4.5rem;
-    transform: scaleX(1.4) scaleY(1.7);
-    -webkit-transform: scaleX(1.4) scaleY(1.7);
-    -moz-transform: scaleX(1.4) scaleY(1.7);
-    -ms-transform: scaleX(1.4) scaleY(1.7);
-    -o-transform: scaleX(1.4) scaleY(1.7);
+    transform: scaleX(1.6) scaleY(1.65);
+    -webkit-transform: scaleX(1.6) scaleY(1.65);
+    -moz-transform: scaleX(1.6) scaleY(1.65);
+    -ms-transform: scaleX(1.6) scaleY(1.65);
+    -o-transform: scaleX(1.6) scaleY(1.65);
   }
 
   .kids-prod-feat img {
@@ -842,11 +841,11 @@ footer {
   .men-prod-feat img {
     width: 100%;
     margin-top: 4.5rem;
-    transform: scaleX(1.3) scaleY(1.55);
-    -webkit-transform: scaleX(1.3) scaleY(1.55);
-    -moz-transform: scaleX(1.3) scaleY(1.55);
-    -ms-transform: scaleX(1.3) scaleY(1.55);
-    -o-transform: scaleX(1.3) scaleY(1.55);
+    transform: scaleX(1.5) scaleY(1.55);
+    -webkit-transform: scaleX(1.5) scaleY(1.55);
+    -moz-transform: scaleX(1.5) scaleY(1.55);
+    -ms-transform: scaleX(1.5) scaleY(1.55);
+    -o-transform: scaleX(1.5) scaleY(1.55);
   }
 
   .kids-prod-feat img {
@@ -1186,26 +1185,26 @@ footer {
 
   .women-prod-feat img {
     width: 100%;
-    margin-top: 5rem;
-    transform: scaleX(1.25) scaleY(1.41);
-    -webkit-transform: scaleX(1.25) scaleY(1.41);
-    -moz-transform: scaleX(1.25) scaleY(1.41);
-    -ms-transform: scaleX(1.25) scaleY(1.41);
-    -o-transform: scaleX(1.25) scaleY(1.41);
+    margin-top: 4rem;
+    transform: scaleX(1.35) scaleY(1.4);
+    -webkit-transform: scaleX(1.35) scaleY(1.4);
+    -moz-transform: scaleX(1.35) scaleY(1.4);
+    -ms-transform: scaleX(1.35) scaleY(1.4);
+    -o-transform: scaleX(1.35) scaleY(1.4);
   }
 
   .men-prod-feat img {
     width: 100%;
-    margin-top: 6.5rem;
-    transform: scaleX(1.25) scaleY(1.55);
-    -webkit-transform: scaleX(1.25) scaleY(1.55);
-    -moz-transform: scaleX(1.25) scaleY(1.55);
-    -ms-transform: scaleX(1.25) scaleY(1.55);
-    -o-transform: scaleX(1.25) scaleY(1.55);
+    margin-top: 5rem;
+    transform: scaleX(1.4) scaleY(1.45);
+    -webkit-transform: scaleX(1.4) scaleY(1.45);
+    -moz-transform: scaleX(1.4) scaleY(1.45);
+    -ms-transform: scaleX(1.4) scaleY(1.45);
+    -o-transform: scaleX(1.4) scaleY(1.45);
   }
 
   .kids-prod-feat img {
-    margin-top: 6rem;
+    margin-top: 5rem;
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
@@ -1213,10 +1212,25 @@ footer {
     -o-transform: scale(1.5);
   }
 
+  .slick-dots {
+    bottom: -3rem;
+  }
+
+  .card-slider .slick-dots,
+  .blog-posts .slick-dots {
+    bottom: -5rem;
+  }
+
   .women-prod-card,
   .men-prod-card,
   .kids-prod-card {
-    margin: 1rem 0 5rem;
+    margin: 1rem 0 3rem;
+  }
+
+  .women-prod-list,
+  .men-prod-list,
+  .kids-prod-list {
+    padding: 5rem 3rem 2rem;
   }
 
   footer {
@@ -1237,7 +1251,7 @@ footer {
 
   .blog-post-card img {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     transition: all 1s ease 0s;
   }
 }
@@ -1262,31 +1276,36 @@ footer {
   }
   .women-prod-feat img {
     width: 100%;
-    margin-top: 7rem;
-    transform: scaleX(1.4) scaleY(1.7);
-    -webkit-transform: scaleX(1.4) scaleY(1.7);
-    -moz-transform: scaleX(1.4) scaleY(1.7);
-    -ms-transform: scaleX(1.4) scaleY(1.7);
-    -o-transform: scaleX(1.4) scaleY(1.7);
+    margin-top: 4.5rem;
+    transform: scaleX(1.4) scaleY(1.45);
+    -webkit-transform: scaleX(1.4) scaleY(1.45);
+    -moz-transform: scaleX(1.4) scaleY(1.45);
+    -ms-transform: scaleX(1.4) scaleY(1.45);
+    -o-transform: scaleX(1.4) scaleY(1.45);
   }
 
   .men-prod-feat img {
     width: 100%;
-    margin-top: 9rem;
-    transform: scaleX(1.3) scaleY(1.95);
-    -webkit-transform: scaleX(1.3) scaleY(1.95);
-    -moz-transform: scaleX(1.3) scaleY(1.95);
-    -ms-transform: scaleX(1.3) scaleY(1.95);
-    -o-transform: scaleX(1.3) scaleY(1.95);
+    margin-top: 6rem;
+    transform: scaleX(1.6) scaleY(1.7);
+    -webkit-transform: scaleX(1.6) scaleY(1.7);
+    -moz-transform: scaleX(1.6) scaleY(1.7);
+    -ms-transform: scaleX(1.6) scaleY(1.7);
+    -o-transform: scaleX(1.6) scaleY(1.7);
   }
 
   .kids-prod-feat img {
-    margin-top: 7rem;
-    transform: scaleX(1.55) scaleY(1.75);
-    -webkit-transform: scaleX(1.55) scaleY(1.75);
-    -moz-transform: scaleX(1.55) scaleY(1.75);
-    -ms-transform: scaleX(1.55) scaleY(1.75);
-    -o-transform: scaleX(1.55) scaleY(1.75);
+    margin-top: 6rem;
+    transform: scaleX(1.55) scaleY(1.55);
+    -webkit-transform: scaleX(1.55) scaleY(1.55);
+    -moz-transform: scaleX(1.55) scaleY(1.55);
+    -ms-transform: scaleX(1.55) scaleY(1.55);
+    -o-transform: scaleX(1.55) scaleY(1.55);
+  }
+  .blog-post-card img {
+    width: 100%;
+    height: 40rem;
+    transition: all 1s ease 0s;
   }
 }
 
@@ -1296,30 +1315,30 @@ footer {
   }
   .women-prod-feat img {
     width: 100%;
-    margin-top: 7rem;
-    transform: scaleX(1.4) scaleY(1.8);
-    -webkit-transform: scaleX(1.4) scaleY(1.8);
-    -moz-transform: scaleX(1.4) scaleY(1.8);
-    -ms-transform: scaleX(1.4) scaleY(1.8);
-    -o-transform: scaleX(1.4) scaleY(1.8);
+    margin-top: 6rem;
+    transform: scaleX(1.6) scaleY(1.65);
+    -webkit-transform: scaleX(1.6) scaleY(1.65);
+    -moz-transform: scaleX(1.6) scaleY(1.65);
+    -ms-transform: scaleX(1.6) scaleY(1.65);
+    -o-transform: scaleX(1.6) scaleY(1.65);
   }
 
   .men-prod-feat img {
     width: 100%;
-    margin-top: 9rem;
-    transform: scaleX(1.3) scaleY(2);
-    -webkit-transform: scaleX(1.3) scaleY(2);
-    -moz-transform: scaleX(1.3) scaleY(2);
-    -ms-transform: scaleX(1.3) scaleY(2);
-    -o-transform: scaleX(1.3) scaleY(2);
+    margin-top: 6rem;
+    transform: scaleX(1.65) scaleY(1.8);
+    -webkit-transform: scaleX(1.65) scaleY(1.8);
+    -moz-transform: scaleX(1.65) scaleY(1.8);
+    -ms-transform: scaleX(1.65) scaleY(1.8);
+    -o-transform: scaleX(1.65) scaleY(1.8);
   }
 
   .kids-prod-feat img {
-    margin-top: 9rem;
-    transform: scaleX(1.55) scaleY(1.95);
-    -webkit-transform: scaleX(1.55) scaleY(1.95);
-    -moz-transform: scaleX(1.55) scaleY(1.95);
-    -ms-transform: scaleX(1.55) scaleY(1.95);
-    -o-transform: scaleX(1.55) scaleY(1.95);
+    margin-top: 6rem;
+    transform: scaleX(1.6) scaleY(1.7);
+    -webkit-transform: scaleX(1.6) scaleY(1.7);
+    -moz-transform: scaleX(1.6) scaleY(1.7);
+    -ms-transform: scaleX(1.6) scaleY(1.7);
+    -o-transform: scaleX(1.6) scaleY(1.7);
   }
 }
